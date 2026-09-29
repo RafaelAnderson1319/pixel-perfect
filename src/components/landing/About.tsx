@@ -3,10 +3,10 @@ import bust from "@/assets/bust.png";
 import { useReveal } from "@/hooks/use-reveal";
 
 const paragraphs = [
-  "Beatriz Caetano leads Caetano Advocacia. A highly experienced professional specialized in civil law, working in advisory, litigation and preventive practice.",
-  "She also practices Criminal, Family and Digital Law, with more than 10 years of experience in the legal field.",
-  "She has broad knowledge and expertise in these areas, offering complete and personalized solutions to her clients' legal problems.",
-  "In addition, she always stays up to date with new trends and legislative developments, ensuring quality and efficient service to her clients.",
+  "Beatriz Caetano lidera a Caetano Advocacia. Profissional altamente experiente e especializada em Direito Civil, atuando na assessoria, contencioso e advocacia preventiva.",
+  "Também atua nas áreas de Direito Penal, Direito de Família e Direito Digital, com mais de 10 anos de experiência na área jurídica.",
+  "Possui amplo conhecimento e experiência nessas áreas, oferecendo soluções completas e personalizadas para as necessidades jurídicas de seus clientes.",
+  "Além disso, mantém-se sempre atualizada sobre novas tendências e mudanças legislativas, garantindo um atendimento de qualidade e eficiente aos seus clientes.",
 ];
 
 export function About() {
