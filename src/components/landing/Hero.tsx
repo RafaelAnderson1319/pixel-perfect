@@ -8,17 +8,17 @@ export function Hero() {
   const right = useReveal(150);
 
   return (
-    <section id="top" className="marble-bg relative overflow-hidden pt-28 pb-16 sm:pt-36 sm:pb-24">
+    <section id="top" className="marble-bg relative isolate overflow-hidden pt-28 pb-16 sm:pt-36 sm:pb-24">
       <img
         src={columns}
         alt=""
         aria-hidden="true"
         width={768}
         height={1024}
-        className="pointer-events-none absolute -left-40 bottom-0 hidden w-[300px] opacity-55 xl:block"
+        className="pointer-events-none absolute left-0 top-1/2 z-0 hidden w-[360px] -translate-y-1/2 opacity-40 lg:block"
       />
 
-      <div className="mx-auto grid max-w-7xl items-center gap-12 px-5 sm:px-8 lg:grid-cols-2 lg:gap-8">
+      <div className="relative z-10 mx-auto grid max-w-7xl items-center gap-12 px-5 sm:px-8 lg:grid-cols-2 lg:gap-8">
         <div ref={left.ref} className={left.className} style={left.style}>
           <div className="lg:pl-16">
             <div className="flex items-center gap-4">
