@@ -5,23 +5,23 @@ import { useReveal } from "@/hooks/use-reveal";
 const areas = [
   {
     icon: Scale,
-    title: "Civil Law",
-    text: "Legal counsel to resolve disputes involving contracts, property rights, inheritance and civil liability, among others.",
+    title: "Direito Civil",
+    text: "Assessoria jurídica para solucionar questões envolvendo contratos, direitos de propriedade, sucessões e responsabilidade civil, entre outras.",
   },
   {
     icon: Gavel,
-    title: "Criminal Law",
-    text: "Legal consulting for property crimes, crimes against life, liberty and honor, among other criminal matters.",
+    title: "Direito Penal",
+    text: "Consultoria jurídica em crimes patrimoniais, crimes contra a vida, liberdade e honra, entre outras questões penais.",
   },
   {
     icon: Users,
-    title: "Family Law",
-    text: "Legal guidance for family matters such as marriage, divorce, child custody and alimony, among others.",
+    title: "Direito de Família",
+    text: "Orientação jurídica para questões familiares como casamento, divórcio, guarda e pensão alimentícia, entre outras.",
   },
   {
     icon: Globe2,
-    title: "Digital Law",
-    text: "Focused on personal data protection, misuse of image, and other issues related to the digital world.",
+    title: "Direito Digital",
+    text: "Atuação voltada à proteção de dados pessoais, uso indevido de imagem e outras questões relacionadas ao mundo digital.",
   },
 ];
 
@@ -40,7 +40,7 @@ export function PracticeAreas() {
             className="outline-word whitespace-nowrap font-serif text-6xl tracking-[0.1em] sm:text-8xl"
             style={{ transform: `translateX(${-14 + i * 9}%)` }}
           >
-            PRACTICE PRACTICE
+            ATUAÇÃO ATUAÇÃO
           </p>
         ))}
       </div>
@@ -57,7 +57,7 @@ export function PracticeAreas() {
 
       <div className="relative mx-auto max-w-7xl px-5 sm:px-8">
         <div ref={title.ref} className={title.className} style={title.style}>
-          <h2 className="text-center font-serif text-3xl text-gold sm:text-4xl">Practice Areas</h2>
+          <h2 className="text-center font-serif text-3xl text-gold sm:text-4xl">Áreas de atuação</h2>
         </div>
 
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:mr-56 lg:grid-cols-4 xl:mr-72">
