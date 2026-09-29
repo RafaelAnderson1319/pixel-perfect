@@ -2,7 +2,7 @@ import { useState } from "react";
 import { toast } from "sonner";
 import { useReveal } from "@/hooks/use-reveal";
 
-export function Contact() {
+export function Contato() {
   const heading = useReveal();
   const panel = useReveal(120);
   const [form, setForm] = useState({ name: "", phone: "", email: "" });
@@ -11,15 +11,15 @@ export function Contact() {
     event.preventDefault();
 
     if (!form.name.trim() || !form.phone.trim() || !form.email.trim()) {
-      toast.error("Please fill in your name, phone and email.");
+      toast.error("Preencha seu nome, telefone e e-mail.");
       return;
     }
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(form.email)) {
-      toast.error("Please enter a valid email address.");
+      toast.error("Digite um endereço de e-mail válido.");
       return;
     }
 
-    toast.success("Message sent. We will get back to you shortly.");
+    toast.success("Mensagem enviada. Entraremos em contato em breve.");
     setForm({ name: "", phone: "", email: "" });
   }
 
@@ -36,9 +36,9 @@ export function Contact() {
               className="outline-word pointer-events-none absolute inset-x-0 -top-14 select-none font-serif text-7xl tracking-[0.12em] opacity-70 sm:-top-20 sm:text-9xl"
             >
 
-              Contact
+              Contato
             </span>
-            <h2 className="relative font-serif text-4xl text-gold sm:text-5xl">Get in touch</h2>
+            <h2 className="relative font-serif text-4xl text-gold sm:text-5xl">Entre em contato</h2>
           </div>
         </div>
 
@@ -46,19 +46,19 @@ export function Contact() {
           <div className="mt-12 grid gap-8 rounded-[32px] bg-card p-6 shadow-soft sm:p-10 lg:grid-cols-2">
             <form onSubmit={handleSubmit} className="space-y-4">
               <Field
-                label="Name"
+                label="Nome"
                 type="text"
                 value={form.name}
                 onChange={(v) => setForm((f) => ({ ...f, name: v }))}
               />
               <Field
-                label="Phone"
+                label="Telefone"
                 type="tel"
                 value={form.phone}
                 onChange={(v) => setForm((f) => ({ ...f, phone: v }))}
               />
               <Field
-                label="Email"
+                label="E-mail"
                 type="email"
                 value={form.email}
                 onChange={(v) => setForm((f) => ({ ...f, email: v }))}
@@ -74,11 +74,11 @@ export function Contact() {
             <div className="rounded-3xl border-x-2 border-b-2 border-gold-light bg-card p-6 sm:p-8">
               <dl className="space-y-6">
                 <div>
-                  <dt className="font-serif text-lg text-gold">Business hours</dt>
-                  <dd className="mt-1 text-sm text-foreground">Monday to Friday: 09:00–18:00</dd>
+                  <dt className="font-serif text-lg text-gold">Horário de atendimento</dt>
+                  <dd className="mt-1 text-sm text-foreground">Segunda a sexta-feira: 09:00–18:00</dd>
                 </div>
                 <div>
-                  <dt className="font-serif text-lg text-gold">Email</dt>
+                  <dt className="font-serif text-lg text-gold">E-mail</dt>
                   <dd className="mt-1 break-all text-sm">
                     <a
                       href="mailto:atendimento@escritoriocaetanoadvocacia.com"
