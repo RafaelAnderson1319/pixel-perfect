@@ -4,13 +4,13 @@ import { useReveal } from "@/hooks/use-reveal";
 const items = [
   {
     icon: FileBadge,
-    title: "Mission",
-    text: "To provide legal counsel of excellence to our clients.",
+    title: "Missão",
+    text: "Oferecer assessoria jurídica de excelência aos nossos clientes.",
   },
   {
     icon: BookOpenCheck,
-    title: "Values",
-    text: "Commitment, ethics, innovation, transparency and social responsibility.",
+    title: "Valores",
+    text: "Compromisso, ética, inovação, transparência e responsabilidade social.",
   },
 ];
 
