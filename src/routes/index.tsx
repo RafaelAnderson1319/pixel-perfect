@@ -9,9 +9,9 @@ import { Contact } from "@/components/landing/Contact";
 import { Footer } from "@/components/landing/Footer";
 import { WhatsAppButton } from "@/components/landing/WhatsAppButton";
 
-const title = "Beatriz Caetano | Attorney at Law";
+const title = "Beatriz Caetano | Advocacia";
 const description =
-  "Legal counsel of excellence in Civil, Criminal, Family and Digital Law. Advisory, litigation and preventive practice with over 10 years of experience.";
+  "Assessoria jurídica de excelência em Direito Civil, Penal, de Família e Digital. Atuação consultiva, contenciosa e preventiva com mais de 10 anos de experiência.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
