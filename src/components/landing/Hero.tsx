@@ -28,27 +28,27 @@ export function Hero() {
                   BEATRIZ CAETANO
                 </h1>
                 <p className="mt-2 text-[0.6rem] tracking-[0.4em] text-muted-foreground sm:text-xs">
-                  ATTORNEY AT LAW
+                  ADVOGADA
                 </p>
               </div>
               <span className="h-px flex-1 max-w-14 bg-gold-light" />
             </div>
 
             <h2 className="mt-10 font-serif text-4xl leading-[1.1] text-gold sm:text-5xl xl:text-6xl">
-              A new case,
+              Um novo caso,
               <br />
-              a new beginning.
+              um novo começo.
             </h2>
 
             <p className="mt-6 max-w-sm text-sm leading-relaxed text-foreground/80 sm:text-base">
-              Solve your legal problems easily and efficiently.
+              Resolva seus problemas jurídicos com facilidade e eficiência.
             </p>
 
             <a
               href="#contact"
               className="group mt-9 inline-flex items-center gap-4 rounded-full bg-gradient-gold py-2 pl-7 pr-2 text-sm text-primary-foreground shadow-card transition-transform hover:-translate-y-0.5"
             >
-              Get in touch
+              Entre em contato
               <span className="grid size-9 place-items-center rounded-full bg-card text-gold-dark transition-transform group-hover:translate-x-0.5">
                 <ArrowRight className="size-4" />
               </span>
@@ -61,7 +61,7 @@ export function Hero() {
             <div className="absolute inset-x-6 bottom-0 h-1/3 bg-gradient-to-t from-background to-transparent" />
             <img
               src={lawyerHero}
-              alt="Beatriz Caetano, attorney at law"
+              alt="Beatriz Caetano, advogada"
               width={1024}
               height={1280}
               className="relative mx-auto w-full max-w-md object-contain [mask-image:linear-gradient(to_bottom,black_78%,transparent)]"
@@ -70,7 +70,7 @@ export function Hero() {
             <div className="absolute bottom-24 -left-2 w-56 animate-float rounded-2xl border-b-2 border-gold-light bg-card/75 p-3 shadow-card backdrop-blur-md sm:-left-6">
               <div className="flex items-center justify-between gap-3">
                 <p className="min-w-0 text-[0.68rem] leading-snug text-foreground/80">
-                  Resolving <span className="font-medium text-foreground">Civil Law</span> disputes
+                  Resolvendo <span className="font-medium text-foreground">Direito Civil</span>
                 </p>
                 <span className="grid size-9 shrink-0 place-items-center rounded-xl bg-accent text-gold-dark">
                   <Scale className="size-4" />
@@ -81,7 +81,7 @@ export function Hero() {
             <div className="absolute bottom-6 left-6 w-56 animate-float-delayed rounded-2xl border-b-2 border-gold-light bg-card/75 p-3 shadow-card backdrop-blur-md sm:left-2">
               <div className="flex items-center justify-between gap-3">
                 <p className="min-w-0 text-[0.68rem] leading-snug text-foreground/80">
-                  Handling <span className="font-medium text-foreground">Family Law</span> cases
+                  Atuando em casos de <span className="font-medium text-foreground">Direito de Família</span>
                 </p>
                 <span className="grid size-9 shrink-0 place-items-center rounded-xl bg-accent text-gold-dark">
                   <HeartHandshake className="size-4" />
