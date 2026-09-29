@@ -2,9 +2,9 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
 const links = [
-  { label: "About", href: "#about" },
-  { label: "Practice Areas", href: "#areas" },
-  { label: "Mission & Values", href: "#mission" },
+  { label: "Sobre", href: "#about" },
+  { label: "Áreas de atuação", href: "#areas" },
+  { label: "Missão e valores", href: "#mission" },
 ];
 
 export function Navbar() {
@@ -40,7 +40,7 @@ export function Navbar() {
 
         <button
           type="button"
-          aria-label={open ? "Close menu" : "Open menu"}
+          aria-label={open ? "Fechar menu" : "Abrir menu"}
           onClick={() => setOpen((v) => !v)}
           className="shrink-0 rounded-full border border-gold-light p-2 text-gold md:hidden"
         >
