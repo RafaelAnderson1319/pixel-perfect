@@ -33,8 +33,9 @@ export function Contact() {
           <div className="relative text-center">
             <span
               aria-hidden="true"
-              className="outline-word pointer-events-none absolute inset-x-0 -top-6 select-none font-serif text-6xl tracking-[0.08em] sm:text-8xl"
+              className="outline-word pointer-events-none absolute inset-x-0 -top-14 select-none font-serif text-7xl tracking-[0.12em] opacity-70 sm:-top-20 sm:text-9xl"
             >
+
               Contact
             </span>
             <h2 className="relative font-serif text-4xl text-gold sm:text-5xl">Get in touch</h2>

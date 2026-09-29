@@ -32,7 +32,7 @@ export function PracticeAreas() {
     <section id="areas" className="marble-bg relative overflow-hidden py-16 sm:py-24">
       <div
         aria-hidden="true"
-        className="pointer-events-none absolute inset-x-0 top-6 select-none space-y-1 overflow-hidden"
+        className="pointer-events-none absolute inset-x-0 top-6 select-none space-y-1 overflow-hidden opacity-60"
       >
         {[0, 1, 2, 3].map((i) => (
           <p

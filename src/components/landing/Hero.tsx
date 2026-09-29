@@ -15,7 +15,7 @@ export function Hero() {
         aria-hidden="true"
         width={768}
         height={1024}
-        className="pointer-events-none absolute -left-24 bottom-0 hidden w-[320px] opacity-70 lg:block xl:-left-16 xl:w-[380px]"
+        className="pointer-events-none absolute -left-40 bottom-0 hidden w-[300px] opacity-55 xl:block"
       />
 
       <div className="mx-auto grid max-w-7xl items-center gap-12 px-5 sm:px-8 lg:grid-cols-2 lg:gap-8">
