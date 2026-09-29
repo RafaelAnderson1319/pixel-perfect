@@ -30,7 +30,7 @@ export function About() {
             />
             <img
               src={lawyerAbout}
-              alt="Beatriz Caetano with arms crossed"
+              alt="Beatriz Caetano com os braços cruzados"
               loading="lazy"
               width={1024}
               height={1280}
@@ -41,7 +41,7 @@ export function About() {
 
         <div ref={text.ref} className={text.className} style={text.style}>
           <h2 className="font-serif text-2xl uppercase tracking-[0.12em] text-gold sm:text-3xl">
-            Who is Beatriz Caetano?
+            Quem é Beatriz Caetano?
           </h2>
           <div className="mt-7 space-y-5">
             {paragraphs.map((p) => (
